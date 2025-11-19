@@ -18,6 +18,8 @@ Got inherit calculation to commisions relative to the total capital
 
 Got earnings in a percentage, this percentage will be calculated multiplying (capital-commision) with Selling price (precio de salida) and then dividing it with buying price (precio de salida) ((capital-comiission)*sellingprice)/buyingprice) this is our USD earnings per cycle, and for calculate earnings in percentage we got (((earningpercycle.100)/capital)-100)/100
 
+Got mininal "tasa" for don't lose money that it (sellingprice-sellingprice*comission)-(sellingprice*comission)
+
 Got earnings in USD per cycle (capital-(((capital-comssion)*sellingprice)/buyingprice))
 
 Got total earnings per day in USD (earningspercycle*totaldayscycle)
@@ -25,4 +27,5 @@ Got total earnings per day in USD (earningspercycle*totaldayscycle)
 Got using a public and free API for got BTC/USD price, then we'll calculate our trading volume relative to reach equivalent to 2 btc, our volume will be calculted using our daily cicles taking in count our earnings per cycle too, and using this values as equivalent to 1 day data and calculating the days that we'll take to got 2-btc, you just get 1-btc value in USD, you multiply it per 2, then you rest it with current user BTC volume (that i default it it's 0), you divide that with his capital and then with his daily cycles.
 
 Got with the 1 btc value in USD you just need too get 1-btc value in usd, you multiply it per 1, then you rest it with current 30 days btc volume of user (that by default it's 0), you dive that with his capital and then his daily cycles
+
  
